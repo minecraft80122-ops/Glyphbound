@@ -43,3 +43,19 @@ Setiap candi menyimpan kekuatan Glif Elemen seperti Air, Surya, dan Bayangan yan
 
 Candi Nusantara & Pertarungan Bos
 Perjalanan ini membawamu melintasi tempat-tempat ikonik seperti Candi Tirta Amerta, Menara Surya Kencana, hingga Gua Watu Lengkara. Di akhir setiap wilayah, musuh utama dan binatang mistis telah menanti dengan pola serangan yang unik. Kamu wajib memanfaatkan kecerdikan serta kerja sama unik Raden dan Dyah untuk meruntuhkan perisai bos dan meraih kemenangan.
+
+## Gameplay 
+
+## Fitur 
+
+## Aset Game 
+* Aset visual 
+  * Karakter
+  * Map
+  * Dek Kartu
+  * Musuh
+
+* Aset Audio
+  * Musik Latar 
+  * Efek suara 
+
