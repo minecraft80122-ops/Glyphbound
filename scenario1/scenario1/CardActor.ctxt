@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=CardActor
+comment0.text=\r\n\ The\ on-screen\ version\ of\ a\ Card.\ Drawn\ entirely\ in\ code,\ so\ adding\r\n\ new\ cards\ needs\ no\ new\ image\ files.\r\n
+comment1.params=card
+comment1.target=CardActor(Card)
+comment2.params=
+comment2.target=Card\ getCard()
+comment3.params=selected
+comment3.target=void\ setSelected(boolean)
+comment4.params=playable
+comment4.target=void\ setPlayable(boolean)
+comment5.params=mx\ my
+comment5.target=boolean\ hit(int,\ int)
+comment6.params=
+comment6.target=void\ redraw()
+comment7.params=img
+comment7.target=void\ drawIcon(greenfoot.GreenfootImage)
+numComments=8

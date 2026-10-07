@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Enemy
+comment0.text=\r\n\ An\ enemy\ walking\ around\ the\ dungeon.\ Touching\ it\ starts\ a\ card\ battle\r\n\ against\ its\ whole\ group\ (1\ to\ 3\ enemies).\r\n
+comment1.params=
+comment1.target=Enemy()
+comment2.params=group
+comment2.target=Enemy(EnemyType[])
+comment3.params=
+comment3.target=EnemyType[]\ getGroup()
+comment4.params=
+comment4.target=void\ act()
+numComments=5

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=gameWorld
+comment0.text=\r\n\ The\ dungeon\ room.\ Walk\ with\ the\ arrow\ keys;\ touch\ an\ enemy\ to\ fight\ it.\r\n
+comment1.params=
+comment1.target=gameWorld()
+comment2.params=defeated
+comment2.target=void\ battleWon(Enemy)
+comment2.text=Called\ by\ BattleWorld\ when\ the\ player\ wins.
+comment3.params=
+comment3.target=void\ updateHud()
+numComments=4

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=EnemyType
+comment0.text=\r\n\ The\ kinds\ of\ enemy.\ Each\ has\ stats\ and\ an\ attack\ pattern.\r\n\ Pattern\ letters\:\ A\ \=\ attack,\ H\ \=\ heavy\ attack\ (double\ damage),\ D\ \=\ defend\ (gain\ block).\r\n\ The\ pattern\ repeats\ forever,\ and\ the\ enemy\ shows\ what\ it\ will\ do\ next\ above\ its\ head.\r\n
+comment1.params=displayName\ maxHp\ attack\ defense\ pattern\ color
+comment1.target=EnemyType(java.lang.String,\ int,\ int,\ int,\ java.lang.String,\ greenfoot.Color)
+numComments=2

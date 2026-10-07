@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=FloatText
+comment0.text=\r\n\ Floating\ damage\ /\ healing\ numbers\ that\ drift\ upward\ and\ fade\ out.\r\n
+comment1.params=text\ color\ size
+comment1.target=FloatText(java.lang.String,\ greenfoot.Color,\ int)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

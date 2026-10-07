@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Gfx
+comment0.text=\r\n\ Tiny\ drawing\ helpers\ shared\ by\ cards,\ enemies\ and\ the\ battle\ HUD.\r\n
+comment1.params=target\ s\ size\ c\ centerX\ top
+comment1.target=void\ text(greenfoot.GreenfootImage,\ java.lang.String,\ int,\ greenfoot.Color,\ int,\ int)
+comment1.text=Draw\ text\ centred\ horizontally\ on\ centerX,\ with\ its\ top\ edge\ at\ 'top'.
+comment2.params=target\ x\ y\ w\ h\ value\ max\ fill
+comment2.target=void\ bar(greenfoot.GreenfootImage,\ int,\ int,\ int,\ int,\ int,\ int,\ greenfoot.Color)
+comment2.text=Draw\ a\ simple\ horizontal\ bar\ (health\ etc).
+numComments=3

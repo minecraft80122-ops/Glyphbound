@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ A\ simple\ clickable\ button.\ BattleWorld\ does\ the\ click\ detection.\r\n
+comment1.params=label\ w\ h
+comment1.target=Button(java.lang.String,\ int,\ int)
+comment2.params=enabled
+comment2.target=void\ setEnabled(boolean)
+comment3.params=mx\ my
+comment3.target=boolean\ hit(int,\ int)
+comment4.params=
+comment4.target=void\ redraw()
+numComments=5
