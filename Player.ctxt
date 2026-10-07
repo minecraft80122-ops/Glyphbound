@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=
+comment1.target=Player()
+comment2.params=battleMode
+comment2.target=Player(boolean)
+comment3.params=
+comment3.target=void\ act()
+numComments=4
