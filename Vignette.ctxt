@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Vignette
+comment0.text=\r\n\ Vignette\ -\ a\ transparent\ picture\ that\ darkens\ the\ screen\ corners,\ drawn\ on\ top\ of\ the\r\n\ map.\ It\ is\ a\ cheap\ trick\ that\ makes\ any\ scene\ look\ more\ "cinematic".\r\n\ We\ paint\ a\ small\ 100x63\ image\ pixel\ by\ pixel,\ then\ enlarge\ it\ to\ full\ screen.\r\n
+comment1.params=width\ height
+comment1.target=Vignette(int,\ int)
+numComments=2

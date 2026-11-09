@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=TitleWorld
+comment0.text=The\ title\ screen,\ drawn\ over\ a\ darkened\ picture\ of\ the\ world\ map.
+comment1.params=
+comment1.target=TitleWorld()
+comment2.params=
+comment2.target=void\ onConfirm()
+numComments=3

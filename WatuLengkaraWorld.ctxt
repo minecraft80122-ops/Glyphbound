@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=WatuLengkaraWorld
+comment0.text=\r\n\ Level\ 3\:\ Gua\ Watu\ Lengkara\ (the\ shadow\ cave).\r\n\ Hardest\ layout\:\ crate,\ barricade,\ then\ TWO\ pools\ with\ two\ targets\ and\ two\ gates.\r\n
+comment1.params=nextStage
+comment1.target=WatuLengkaraWorld(int)
+comment2.params=
+comment2.target=java.lang.String\ getAreaTitle()
+comment3.params=
+comment3.target=void\ buildLevel()
+numComments=4

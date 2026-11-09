@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Target
+comment0.text=\r\n\ Target\ -\ a\ bullseye\ out\ of\ reach\ across\ the\ water.\ When\ an\ Arrow\ hits\ it,\r\n\ it\ opens\ the\ Gate\ it\ is\ linked\ to.\r\n\r\n\ Note\ the\ field\ 'linkedGate'\:\ one\ object\ HOLDING\ A\ REFERENCE\ to\ another\ object.\r\n\ That\ is\ how\ objects\ cooperate\ in\ OOP\ ("has-a"\ relationship,\ called\ composition).\r\n
+comment1.params=gate
+comment1.target=Target(Gate)
+comment2.params=
+comment2.target=void\ onArrowHit()
+comment3.params=on
+comment3.target=void\ draw(boolean)
+numComments=4

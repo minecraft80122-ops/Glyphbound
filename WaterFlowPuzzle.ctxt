@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=WaterFlowPuzzle
+comment0.text=\r\n\ Puzzle\ for\ the\ AIR\ glyph\:\ "channel\ the\ water".\r\n\ Press\ W/A/S/D\ matching\ the\ four\ arrows,\ in\ order.\ A\ wrong\ key\ restarts\ the\ sequence.\r\n\ (We\ use\ WASD\ here\ because\ Raden\ walks\ with\ the\ ARROW\ keys.)\r\n
+comment1.params=
+comment1.target=WaterFlowPuzzle()
+comment2.params=key
+comment2.target=void\ updatePuzzle(java.lang.String)
+comment3.params=img
+comment3.target=void\ drawContent(greenfoot.GreenfootImage)
+comment4.params=img\ cx\ cy\ dir\ c
+comment4.target=void\ drawArrow(greenfoot.GreenfootImage,\ int,\ int,\ int,\ greenfoot.Color)
+comment4.text=Draw\ an\ arrow\ pointing\ in\ direction\ dir\ (0\=up,\ 1\=right,\ 2\=down,\ 3\=left).
+comment5.params=pts\ cx\ cy\ dir\ wantX
+comment5.target=int[]\ rotated(int[][],\ int,\ int,\ int,\ boolean)
+comment5.text=Rotate\ points\ by\ dir\ *\ 90\ degrees\ clockwise\ and\ return\ the\ x\ (or\ y)\ coordinates.
+numComments=6

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TirtaAmertaWorld
+comment0.text=\r\n\ Level\ 1\:\ Candi\ Tirta\ Amerta\ (the\ water\ temple).\r\n\ Layout\ (left\ ->\ right)\:\r\n\ \ \ [start]\ |\ wooden\ barricade\ (Raden)\ |\ pool\ with\ a\ target\ behind\ it\ (Dyah)\ |\ locked\ gate\ |\ [glyph\ +\ portal]\r\n\r\n\ This\ class\ only\ describes\ the\ layout;\ the\ parent\ class\ does\ all\ the\ work.\r\n\ 'extends\ ExplorationWorld'\ \=\ INHERITANCE\:\ we\ get\ everything\ it\ has\ for\ free.\r\n
+comment1.params=nextStage
+comment1.target=TirtaAmertaWorld(int)
+comment2.params=
+comment2.target=java.lang.String\ getAreaTitle()
+comment3.params=
+comment3.target=void\ buildLevel()
+numComments=4

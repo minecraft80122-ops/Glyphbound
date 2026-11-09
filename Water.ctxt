@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Water
+comment0.text=\r\n\ Water\ -\ too\ deep\ to\ walk\ through,\ but\ arrows\ fly\ right\ over\ it\!\r\n\ Shows\ OVERRIDING\:\ we\ replace\ the\ parent's\ blocksArrows()\ with\ our\ own\ version.\r\n
+comment1.params=w\ h
+comment1.target=Water(int,\ int)
+comment2.params=
+comment2.target=boolean\ blocksArrows()
+numComments=3

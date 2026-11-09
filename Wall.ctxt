@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Wall
+comment0.text=Wall\ -\ a\ stone\ block.\ Nothing\ special\:\ it\ just\ blocks\ walking\ and\ arrows.
+comment1.params=w\ h\ base
+comment1.target=Wall(int,\ int,\ greenfoot.Color)
+numComments=2
