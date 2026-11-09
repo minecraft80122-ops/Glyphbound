@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=GlyphPuzzle
+comment0.text=\r\n\ GlyphPuzzle\ -\ ABSTRACT\ parent\ of\ the\ quick\ puzzles\ you\ solve\ in\ the\ middle\ of\ a\ fight.\r\n\r\n\ The\ parent\ handles\ what\ ALL\ puzzles\ share\:\ the\ panel,\ the\ title,\ the\ countdown\r\n\ timer\ bar,\ reading\ the\ keyboard,\ and\ telling\ the\ BattleWorld\ when\ it's\ over.\r\n\ Each\ child\ puzzle\ only\ implements\ two\ methods\:\r\n\ \ \ \ \ updatePuzzle(key)\ \ \ -\ the\ RULES\ (what\ happens\ when\ a\ key\ is\ pressed)\r\n\ \ \ \ \ drawContent(img)\ \ \ \ -\ the\ LOOK\ of\ the\ middle\ of\ the\ panel\r\n\r\n\ The\ fight\ never\ pauses\ while\ the\ puzzle\ is\ open,\ so\ enemies\ keep\ attacking\!\r\n
+comment1.params=element\ title\ timeLimit
+comment1.target=GlyphPuzzle(Element,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=success
+comment3.target=void\ finish(boolean)
+comment3.text=Child\ puzzles\ call\ this\ when\ solved\ (true)\ or\ failed\ (false).
+comment4.params=frames
+comment4.target=void\ penalty(int)
+comment4.text=Subtract\ time\ as\ a\ penalty\ for\ mistakes.
+comment5.params=key
+comment5.target=void\ updatePuzzle(java.lang.String)
+comment6.params=img
+comment6.target=void\ drawContent(greenfoot.GreenfootImage)
+comment7.params=
+comment7.target=void\ paintPanel()
+comment8.params=img\ text\ size\ color\ cx\ y
+comment8.target=void\ drawText(greenfoot.GreenfootImage,\ java.lang.String,\ int,\ greenfoot.Color,\ int,\ int)
+comment8.text=Helper\ for\ children\:\ write\ centred\ text\ at\ (cx,\ y)\ on\ the\ panel.
+numComments=9

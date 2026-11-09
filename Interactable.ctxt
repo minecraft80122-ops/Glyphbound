@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Interactable
+comment0.text=\r\n\ Interactable\ -\ an\ INTERFACE.\r\n\r\n\ An\ interface\ is\ a\ promise\:\ "any\ class\ that\ implements\ me\ MUST\ have\ these\ methods".\r\n\ It\ says\ WHAT\ can\ be\ done,\ not\ HOW.\ Npc\ and\ DomainGate\ are\ completely\ different\r\n\ classes,\ but\ both\ implement\ Interactable,\ so\ the\ Player\ can\ treat\ them\ the\ same\ way\:\r\n\ \ \ \ \ "find\ the\ closest\ Interactable,\ show\ its\ prompt,\ call\ interact()\ when\ E\ is\ pressed".\r\n\r\n\ Want\ a\ treasure\ chest,\ a\ sign\ or\ a\ shop?\ Write\ a\ class\ that\ implements\ Interactable\r\n\ and\ the\ Player\ will\ already\ know\ how\ to\ use\ it.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getPrompt()
+comment1.text=Text\ shown\ at\ the\ bottom\ of\ the\ screen\ when\ the\ player\ is\ close,\ e.g.\ "E\:\ bicara".
+comment2.params=world
+comment2.target=void\ interact(MyWorld)
+comment2.text=What\ happens\ when\ the\ player\ presses\ E\ next\ to\ it.
+comment3.params=
+comment3.target=double\ getMapX()
+comment4.params=
+comment4.target=double\ getMapY()
+numComments=5

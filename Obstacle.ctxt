@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Obstacle
+comment0.text=\r\n\ Obstacle\ -\ the\ PARENT\ class\ of\ everything\ solid\ in\ the\ exploration\ levels\r\n\ (walls,\ water,\ crates,\ gates,\ targets...).\r\n\r\n\ Why\ make\ a\ parent\ class?\ Because\ the\ player\ only\ needs\ ONE\ rule\:\r\n\ \ \ \ \ "if\ I\ touch\ an\ Obstacle,\ I\ can't\ walk\ there".\r\n\ It\ doesn't\ care\ which\ kind\ of\ obstacle\ it\ is.\ That\ is\ POLYMORPHISM.\r\n\r\n\ Children\ can\ OVERRIDE\ (re-define)\ the\ two\ methods\ below\ to\ behave\ differently.\r\n
+comment1.params=
+comment1.target=boolean\ blocksArrows()
+comment1.text=Does\ an\ arrow\ stop\ when\ it\ hits\ me?\ Default\:\ yes.\ Water\ overrides\ this\ with\ 'no'.
+comment2.params=
+comment2.target=void\ onArrowHit()
+comment2.text=Called\ by\ an\ Arrow\ that\ hit\ me.\ Default\:\ do\ nothing.\ Target\ overrides\ this.
+numComments=3

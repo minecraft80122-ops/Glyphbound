@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MenuWorld
+comment0.text=\r\n\ MenuWorld\ -\ an\ ABSTRACT\ base\ class\ for\ all\ "press\ ENTER\ to\ continue"\ screens.\r\n\r\n\ ABSTRACT\ class\ \=\ a\ half-finished\ class.\ You\ cannot\ write\ "new\ MenuWorld()".\r\n\ It\ exists\ only\ to\ be\ EXTENDED.\ It\ contains\ shared\ code\ (the\ ENTER\ handling)\r\n\ and\ declares\ an\ abstract\ method\ onConfirm()\ that\ every\ child\ MUST\ implement.\r\n\ This\ is\ INHERITANCE\ +\ the\ "template\ method"\ idea\:\ parent\ controls\ the\ flow,\r\n\ children\ fill\ in\ the\ blanks.\r\n
+comment1.params=
+comment1.target=MenuWorld()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=Runs\ every\ frame\ (Greenfoot\ calls\ act()\ automatically).
+comment3.params=
+comment3.target=void\ onConfirm()
+comment3.text=Called\ when\ the\ player\ presses\ ENTER.\ Each\ child\ class\ defines\ it.
+comment4.params=text\ size\ color\ y
+comment4.target=void\ addText(java.lang.String,\ int,\ greenfoot.Color,\ int)
+comment4.text=Helper\:\ put\ a\ horizontally-centred\ line\ of\ text\ on\ screen\ at\ height\ y.
+numComments=5

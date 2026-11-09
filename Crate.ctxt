@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Crate
+comment0.text=Crate\ -\ a\ heavy\ wooden\ box.\ Only\ RADEN\ can\ push\ it\ (see\ Explorer.tryMove).
+comment1.params=
+comment1.target=Crate()
+comment2.params=dx\ dy
+comment2.target=boolean\ tryPush(int,\ int)
+comment2.text=\r\n\ Try\ to\ slide\ the\ crate\ by\ (dx,\ dy).\ Returns\ true\ if\ it\ moved.\r\n\ The\ crate\ refuses\ if\ it\ would\ hit\ another\ obstacle\ or\ leave\ the\ floor\ area.\r\n
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=GameOverWorld
+comment0.text=Shown\ when\ Raden's\ health\ reaches\ zero.\ ENTER\ retries\ the\ battle.
+comment1.params=retryStage
+comment1.target=GameOverWorld(int)
+comment2.params=
+comment2.target=void\ onConfirm()
+numComments=3

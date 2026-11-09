@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=EnemyType
+comment0.text=\r\n\ EnemyType\ -\ an\ ENUM\ holding\ the\ stats\ of\ every\ kind\ of\ enemy\ (data\ only).\r\n\r\n\ Attack\ pattern\ letters\ (repeats\ forever,\ the\ next\ move\ is\ shown\ above\ the\ enemy)\:\r\n\ \ \ A\ \=\ attack\ \ \ \ \ H\ \=\ heavy\ attack\ (double\ damage)\ \ \ \ \ D\ \=\ defend\ (gain\ block)\r\n\r\n\ Bosses\ also\ have\ a\ SHIELD\:\ normal\ hits\ only\ chip\ it\ (25%),\ but\ KOMBO\ hits\ and\r\n\ glyph\ powers\ hit\ it\ at\ full\ strength.\ When\ it\ breaks,\ the\ boss\ is\ stunned\ for\ a\ turn.\r\n\ (These\ numbers\ were\ tuned\ with\ a\ quick\ simulation\:\ change\ them\ to\ make\ the\ game\ easier/harder.)\r\n
+comment1.params=displayName\ maxHp\ attack\ defense\ pattern\ shield\ boss
+comment1.target=EnemyType(java.lang.String,\ int,\ int,\ int,\ java.lang.String,\ int,\ boolean)
+numComments=2

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ShadowMemoryPuzzle
+comment0.text=\r\n\ Puzzle\ for\ the\ BAYANGAN\ glyph\:\ "remember\ the\ shadows".\r\n\ Three\ orbs\ light\ up\ in\ a\ sequence\ of\ 4.\ Watch,\ then\ repeat\ it\ with\ keys\ 1,\ 2,\ 3.\r\n\ A\ mistake\ replays\ the\ sequence.\r\n\r\n\ It\ has\ two\ PHASES;\ the\ boolean\ 'showing'\ says\ which\ one\ we\ are\ in\r\n\ (a\ tiny\ "state\ machine").\r\n
+comment1.params=
+comment1.target=ShadowMemoryPuzzle()
+comment2.params=key
+comment2.target=void\ updatePuzzle(java.lang.String)
+comment3.params=img
+comment3.target=void\ drawContent(greenfoot.GreenfootImage)
+numComments=4

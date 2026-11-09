@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Label
+comment0.text=\r\n\ Label\ -\ an\ Actor\ whose\ image\ is\ just\ a\ piece\ of\ text.\r\n\r\n\ Greenfoot\ has\ world.showText(),\ but\ a\ Label\ actor\ is\ more\ flexible\:\ we\ can\r\n\ choose\ colour\ and\ size,\ and\ place\ it\ in\ front/behind\ other\ actors.\r\n\ This\ class\ is\ a\ small\ example\ of\ REUSE\:\ many\ worlds\ use\ Label.\r\n
+comment1.params=text\ size\ color
+comment1.target=Label(java.lang.String,\ int,\ greenfoot.Color)
+comment1.text=Text\ on\ a\ transparent\ background.
+comment2.params=text\ size\ color\ background
+comment2.target=Label(java.lang.String,\ int,\ greenfoot.Color,\ greenfoot.Color)
+comment2.text=Text\ on\ a\ coloured\ background\ (handy\ for\ readable\ HUD\ text\ over\ a\ busy\ map).
+comment3.params=text
+comment3.target=void\ setText(java.lang.String)
+comment3.text=Change\ the\ displayed\ text.
+numComments=4

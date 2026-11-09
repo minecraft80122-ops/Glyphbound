@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Gate
+comment0.text=Gate\ -\ a\ sealed\ stone\ door.\ It\ opens\ when\ its\ linked\ Target\ is\ hit\ by\ an\ arrow.
+comment1.params=w\ h\ wallColor
+comment1.target=Gate(int,\ int,\ greenfoot.Color)
+comment2.params=
+comment2.target=void\ open()
+comment2.text=Open\ the\ gate\:\ show\ a\ message\ and\ remove\ myself.
+numComments=3
