@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DialogueBox
+comment0.text=\r\n\ DialogueBox\ -\ a\ text\ box\ with\ a\ typewriter\ effect.\ Press\ E\ /\ ENTER\ /\ SPACE\ to\r\n\ show\ the\ whole\ line\ instantly,\ or\ to\ go\ to\ the\ next\ line.\ When\ the\ last\ line\ is\r\n\ finished\ it\ asks\ MyWorld\ to\ remove\ it.\r\n
+comment1.params=speaker\ lines
+comment1.target=DialogueBox(java.lang.String,\ java.lang.String[])
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ redraw()
+comment4.params=text\ maxChars
+comment4.target=java.util.List\ wrap(java.lang.String,\ int)
+comment4.text=Break\ a\ long\ text\ into\ rows\ of\ at\ most\ maxChars\ characters,\ only\ at\ spaces.
+numComments=5

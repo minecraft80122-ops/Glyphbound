@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Sprites
+comment0.text=\r\n\ Sprites\ -\ draws\ the\ ENEMIES\ with\ code\ (the\ heroes\ use\ the\ real\ sprite\ sheets,\ see\ CharacterArt).\r\n\ Each\ method\ creates\ a\ blank\ GreenfootImage\ and\ "paints"\ shapes\ onto\ it.\r\n\ Tip\ for\ learning\:\ change\ numbers/colours\ here\ and\ run\ again\ to\ see\ what\ moves\!\r\n
+comment1.params=
+comment1.target=greenfoot.GreenfootImage\ soldier()
+comment1.text=Portuguese\ soldier\:\ dark\ tunic,\ steel\ helmet,\ spear.\ (8px\ free\ space\ on\ top\ for\ the\ health\ bar.)
+comment2.params=
+comment2.target=greenfoot.GreenfootImage\ musketeer()
+comment2.text=Musketeer\:\ red\ coat,\ wide\ hat,\ long\ gun.
+comment3.params=
+comment3.target=greenfoot.GreenfootImage\ naga()
+comment3.text=Naga\ Tirta\:\ a\ blue-green\ water\ serpent\ made\ of\ overlapping\ circles.
+comment4.params=
+comment4.target=greenfoot.GreenfootImage\ garuda()
+comment4.text=Garuda\ Surya\:\ golden\ bird\ with\ big\ wings\ and\ a\ beak.
+comment5.params=
+comment5.target=greenfoot.GreenfootImage\ macan()
+comment5.text=Macan\ Bayangan\:\ a\ dark\ purple\ shadow\ tiger\ with\ glowing\ eyes.
+numComments=6

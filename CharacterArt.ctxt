@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CharacterArt
+comment0.text=\r\n\ CharacterArt\ -\ ALL\ the\ animation\ frames\ of\ ONE\ character\ (idle,\ walk,\ attack,\ guard),\r\n\ each\ in\ a\ right-facing\ and\ a\ left-facing\ version.\r\n\r\n\ Loading\ and\ scaling\ images\ is\ slow,\ so\ we\ keep\ finished\ sets\ in\ a\ static\ HashMap\r\n\ (a\ "cache")\:\ the\ first\ call\ builds\ the\ set,\ later\ calls\ reuse\ it.\r\n\r\n\ To\ use\ your\ own\ final\ art\:\ put\ new\ sheets\ in\ the\ images\ folder\ and\ change\ the\r\n\ file\ names\ in\ get(...).\ Keep\ the\ same\ layout\ (128px\ frames\ side\ by\ side).\r\n
+comment1.params=idle\ walk\ attack\ guard\ scale
+comment1.target=CharacterArt(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double)
+comment2.params=isRaden\ scale
+comment2.target=CharacterArt\ get(boolean,\ double)
+comment2.text=Get\ the\ art\ for\ Raden\ (isRaden\ \=\ true)\ or\ Dyah\ (false)\ at\ the\ given\ scale.
+numComments=3

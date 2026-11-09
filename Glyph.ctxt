@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Glyph
+comment0.text=Glyph\ -\ a\ floating\ elemental\ crystal.\ Touch\ it\ with\ the\ hero\ to\ collect\ it.
+comment1.params=element
+comment1.target=Glyph(Element)
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ act()
+numComments=4

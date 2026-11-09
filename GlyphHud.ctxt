@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GlyphHud
+comment0.text=GlyphHud\ -\ three\ diamond\ slots\ that\ fill\ with\ colour\ as\ you\ collect\ the\ glyphs.
+comment1.params=
+comment1.target=GlyphHud()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ refresh()
+numComments=4

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=FisherNpc
+comment0.text=Pak\ Sutar,\ a\ fisherman\ with\ a\ bit\ of\ lore.
+comment1.params=
+comment1.target=FisherNpc()
+comment2.params=
+comment2.target=java.lang.String[]\ getLines()
+numComments=3

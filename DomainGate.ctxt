@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=DomainGate
+comment0.text=\r\n\ DomainGate\ -\ a\ glowing\ doorway\ on\ the\ map.\ Walk\ close\ and\ press\ E\ to\ enter\ a\ domain\r\n\ (temple\ level).\ Also\ used\ for\ the\ Southern\ Port,\ which\ needs\ all\ 3\ glyphs.\r\n\r\n\ Another\ class\ that\ implements\ Interactable,\ completely\ different\ from\ Npc.\r\n
+comment1.params=name\ element\ stageId\ requiredGlyphs
+comment1.target=DomainGate(java.lang.String,\ Element,\ int,\ int)
+comment2.params=
+comment2.target=void\ drawImage()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=java.lang.String\ getPrompt()
+comment5.params=world
+comment5.target=void\ interact(MyWorld)
+numComments=6

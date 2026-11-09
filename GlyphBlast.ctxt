@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GlyphBlast
+comment0.text=GlyphBlast\ -\ an\ expanding\ coloured\ ring\ that\ plays\ when\ a\ glyph\ power\ is\ unleashed.
+comment1.params=color
+comment1.target=GlyphBlast(greenfoot.Color)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ redraw()
+numComments=4

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=FloatingText
+comment0.text=\r\n\ FloatingText\ -\ short\ text\ that\ rises\ and\ fades\ ("-10",\ "KOMBO\ x2\!",\ ...).\r\n\ It\ deletes\ itself\ when\ finished,\ so\ nobody\ has\ to\ clean\ it\ up.\r\n
+comment1.params=text\ size\ color
+comment1.target=FloatingText(java.lang.String,\ int,\ greenfoot.Color)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

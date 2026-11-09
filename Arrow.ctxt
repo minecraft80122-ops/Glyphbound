@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Arrow
+comment0.text=\r\n\ Arrow\ -\ Dyah's\ arrow\ in\ the\ temple\ puzzle\ levels.\ It\ flies\ in\ a\ straight\ line,\r\n\ triggers\ Targets\ (via\ Obstacle.onArrowHit)\ and\ stops\ at\ walls.\r\n\ (In\ the\ card\ battle,\ arrows\ are\ just\ cards\ -\ see\ Card.panah().)\r\n\r\n\ Greenfoot\ positions\ are\ whole\ numbers\ (int),\ but\ we\ want\ smooth\ diagonal\r\n\ flight,\ so\ we\ keep\ our\ own\ precise\ 'double'\ coordinates\ x\ and\ y.\r\n
+comment1.params=dirX\ dirY\ damage
+comment1.target=Arrow(double,\ double,\ int)
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=Greenfoot\ calls\ this\ right\ after\ the\ arrow\ is\ added\ to\ a\ world.
+comment3.params=
+comment3.target=void\ act()
+numComments=4

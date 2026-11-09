@@ -1,9 +1,20 @@
 #BlueJ class context
 comment0.target=Player
+comment0.text=\r\n\ Player\ -\ the\ hero\ on\ the\ overworld\ map\ (your\ original\ class,\ rebuilt).\r\n\r\n\ What\ changed\ compared\ to\ your\ first\ version\:\r\n\ \ -\ walks\ with\ WASD\ *or*\ arrow\ keys,\ diagonal\ movement\ is\ normalised\ (not\ faster)\r\n\ \ -\ collision\:\ the\ ground\ under\ the\ feet\ must\ be\ walkable\ (see\ MyWorld.isWalkable)\r\n\ \ -\ extends\ MapActor,\ so\ the\ camera\ positions\ it\ on\ screen\r\n\ \ -\ Q\ swaps\ between\ Raden\ and\ Dyah,\ E\ talks\ to\ people\ /\ enters\ gates\r\n\ \ -\ animation\ is\ done\ by\ HeroAnimator\ (your\ idle\ /\ walk\ sprite\ sheets)\r\n
 comment1.params=
 comment1.target=Player()
-comment2.params=battleMode
-comment2.target=Player(boolean)
+comment2.params=
+comment2.target=void\ act()
 comment3.params=
-comment3.target=void\ act()
-numComments=4
+comment3.target=void\ handleSwitch()
+comment4.params=world
+comment4.target=boolean\ handleMovement(MyWorld)
+comment4.text=@return\ true\ if\ the\ hero\ is\ walking\ this\ frame
+comment5.params=world\ x\ y
+comment5.target=boolean\ canStandAt(MyWorld,\ double,\ double)
+comment5.text=The\ feet\ are\ about\ 12px\ wide\:\ check\ left\ foot,\ right\ foot\ and\ centre.
+comment6.params=world
+comment6.target=void\ handleInteract(MyWorld)
+comment7.params=
+comment7.target=boolean\ isRaden()
+numComments=8

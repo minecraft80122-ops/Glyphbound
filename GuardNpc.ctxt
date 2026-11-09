@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=GuardNpc
+comment0.text=Prajurit\ Jaka,\ a\ guard\ with\ battle\ tips.
+comment1.params=
+comment1.target=GuardNpc()
+comment2.params=
+comment2.target=java.lang.String[]\ getLines()
+numComments=3

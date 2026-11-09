@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ElderNpc
+comment0.text=Ki\ Ageng,\ the\ village\ elder.\ His\ words\ change\ with\ how\ many\ glyphs\ you\ own.
+comment1.params=
+comment1.target=ElderNpc()
+comment2.params=
+comment2.target=java.lang.String[]\ getLines()
+numComments=3
