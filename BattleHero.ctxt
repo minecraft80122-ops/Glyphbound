@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BattleHero
+comment0.text=\r\n\ BattleHero\ -\ Raden\ or\ Dyah\ standing\ on\ the\ left\ side\ of\ the\ battle\ screen.\r\n\ Both\ are\ visible\ at\ the\ same\ time\ ("pertarungan\ kolaborasi\ dua\ pahlawan").\r\n\ It\ only\ handles\ ANIMATION\:\ idle\ breathing,\ an\ attack\ animation\ when\ one\ of\r\n\ their\ cards\ is\ played,\ a\ guard\ pose\ and\ a\ blink\ when\ the\ party\ is\ hurt.\r\n
+comment1.params=isRaden
+comment1.target=BattleHero(boolean)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ attack()
+comment3.text=Play\ the\ attack\ animation\ once.
+comment4.params=frames
+comment4.target=void\ guard(int)
+comment4.text=Hold\ the\ guard\ pose\ for\ a\ number\ of\ frames.
+comment5.params=
+comment5.target=void\ hurt()
+comment5.text=Blink\ for\ a\ moment.
+numComments=6

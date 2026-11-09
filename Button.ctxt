@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=A\ simple\ clickable\ button.\ BattleWorld\ does\ the\ click\ detection\ (hit).
+comment1.params=label\ w\ h
+comment1.target=Button(java.lang.String,\ int,\ int)
+comment2.params=enabled
+comment2.target=void\ setEnabled(boolean)
+comment3.params=label
+comment3.target=void\ setLabel(java.lang.String)
+comment4.params=accent
+comment4.target=void\ setAccent(greenfoot.Color)
+comment4.text=Colour\ of\ the\ button\ face\ when\ enabled.
+comment5.params=mx\ my
+comment5.target=boolean\ hit(int,\ int)
+comment6.params=
+comment6.target=void\ redraw()
+numComments=7

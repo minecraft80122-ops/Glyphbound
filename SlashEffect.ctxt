@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=SlashEffect
+comment0.text=\r\n\ SlashEffect\ -\ a\ short-lived\ crescent\ that\ shows\ a\ sword\ swing.\r\n\ It\ is\ purely\ visual\:\ the\ damage\ is\ handled\ by\ whoever\ creates\ it.\r\n
+comment1.params=rotationDegrees\ color
+comment1.target=SlashEffect(int,\ greenfoot.Color)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

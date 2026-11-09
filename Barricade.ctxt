@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Barricade
+comment0.text=Barricade\ -\ wooden\ planks\ that\ only\ RADEN\ can\ cut\ down\ (2\ slashes).
+comment1.params=w\ h
+comment1.target=Barricade(int,\ int)
+comment2.params=
+comment2.target=void\ slash()
+comment2.text=Called\ by\ Raden's\ sword.
+comment3.params=
+comment3.target=void\ draw()
+numComments=4

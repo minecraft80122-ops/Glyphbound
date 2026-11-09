@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MapActor
+comment0.text=\r\n\ MapActor\ -\ the\ parent\ of\ everything\ that\ lives\ ON\ THE\ BIG\ MAP\ (Player,\ Npc,\ DomainGate).\r\n\r\n\ Your\ original\ game\ moved\ EVERY\ actor\ whenever\ the\ player\ walked\ (scrollWorld).\r\n\ This\ version\ uses\ a\ CAMERA\ instead\:\ each\ MapActor\ remembers\ its\ real\ position\ on\ the\r\n\ map\ (mapX,\ mapY)\ and\ the\ world\ simply\ places\ it\ on\ screen\ at\ (mapX\ -\ cameraX,\ mapY\ -\ cameraY).\r\n\ Benefits\:\ positions\ never\ drift,\ collisions\ are\ easy\ (we\ know\ real\ map\ positions),\r\n\ and\ the\ player\ can\ reach\ the\ screen\ edges\ when\ the\ camera\ stops\ at\ the\ map\ border.\r\n\r\n\ mapX/mapY\ is\ the\ position\ of\ the\ FEET,\ not\ the\ image\ centre.\ That\ makes\ it\r\n\ natural\ to\ ask\ "is\ the\ ground\ under\ my\ feet\ walkable?".\r\n
+comment1.params=x\ y
+comment1.target=void\ setMapPosition(double,\ double)
+comment2.params=
+comment2.target=double\ getMapX()
+comment3.params=
+comment3.target=double\ getMapY()
+comment4.params=x\ y
+comment4.target=double\ distanceTo(double,\ double)
+comment4.text=Distance\ between\ this\ actor's\ feet\ and\ a\ point\ on\ the\ map.
+comment5.params=camX\ camY
+comment5.target=void\ syncToCamera(int,\ int)
+comment5.text=Called\ by\ MyWorld\ every\ frame\:\ place\ the\ picture\ on\ screen\ according\ to\ the\ camera.
+numComments=6

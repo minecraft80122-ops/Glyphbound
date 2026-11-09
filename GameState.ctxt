@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=GameState
+comment0.text=\r\n\ GameState\ -\ data\ shared\ by\ the\ WHOLE\ game\ (all\ static,\ so\ no\ "new\ GameState()").\r\n\r\n\ Game\ flow\:\r\n\ \ \ Title\ ->\ Prolog\ story\ ->\ OVERWORLD\ (MyWorld)\ --enter\ a\ domain\ gate-->\r\n\ \ \ \ \ \ \ \ temple\ puzzle\ level\ ->\ boss\ battle\ ->\ short\ story\ page\ ->\ back\ to\ OVERWORLD\r\n\ \ \ After\ all\ 3\ glyphs\ are\ collected\ the\ Southern\ Port\ gate\ opens.\r\n\r\n\ buildStage()\ is\ a\ FACTORY\ METHOD\:\ give\ it\ a\ stage\ number,\ get\ the\ right\ World\ object.\r\n
+comment1.params=
+comment1.target=void\ resetCards()
+comment1.text=Start\ a\ new\ game\:\ full\ health\ and\ the\ starting\ deck.
+comment10.params=stage
+comment10.target=greenfoot.World\ buildStage(int)
+comment2.params=
+comment2.target=void\ ensureDeck()
+comment2.text=Lets\ a\ BattleWorld\ be\ started\ directly\ (right-click\ >\ new\ BattleWorld(...))\ for\ testing.
+comment3.params=
+comment3.target=void\ reset()
+comment4.params=e
+comment4.target=void\ addGlyph(Element)
+comment5.params=e
+comment5.target=boolean\ hasGlyph(Element)
+comment6.params=
+comment6.target=int\ glyphCount()
+comment7.params=x\ y
+comment7.target=void\ setReturnPoint(double,\ double)
+comment8.params=
+comment8.target=double\ getReturnX()
+comment9.params=
+comment9.target=double\ getReturnY()
+numComments=11

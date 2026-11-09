@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Portal
+comment0.text=\r\n\ Portal\ -\ the\ exit\ of\ an\ exploration\ level.\ Sealed\ (grey)\ until\ the\ glyph\ is\r\n\ collected,\ then\ it\ glows\ and\ takes\ the\ heroes\ to\ the\ boss\ battle.\r\n
+comment1.params=element
+comment1.target=Portal(Element)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=open
+comment3.target=void\ draw(boolean)
+numComments=4

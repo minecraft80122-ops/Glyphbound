@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SuryaKenconoWorld
+comment0.text=\r\n\ Level\ 2\:\ Menara\ Surya\ Kencana\ (the\ sun\ tower).\r\n\ New\ twist\:\ a\ heavy\ crate\ plugs\ the\ first\ doorway\ and\ must\ be\ pushed\ out\ of\ the\ way\ by\ Raden.\r\n
+comment1.params=nextStage
+comment1.target=SuryaKenconoWorld(int)
+comment2.params=
+comment2.target=java.lang.String\ getAreaTitle()
+comment3.params=
+comment3.target=void\ buildLevel()
+numComments=4

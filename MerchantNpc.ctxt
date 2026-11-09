@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=MerchantNpc
+comment0.text=Mbok\ Rukmini,\ a\ market\ trader\ who\ gives\ gameplay\ tips.
+comment1.params=
+comment1.target=MerchantNpc()
+comment2.params=
+comment2.target=java.lang.String[]\ getLines()
+numComments=3

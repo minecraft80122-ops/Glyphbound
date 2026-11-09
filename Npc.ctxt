@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Npc
+comment0.text=\r\n\ Npc\ -\ ABSTRACT\ parent\ of\ every\ villager\ you\ can\ talk\ to.\r\n\r\n\ It\ does\ the\ common\ work\ (animation,\ turning\ toward\ the\ player,\ the\ dialogue\ prompt).\r\n\ Each\ child\ only\ supplies\ WHO\ it\ is\ and\ WHAT\ it\ says\ by\ implementing\ getLines().\r\n\ To\ add\ a\ new\ villager\:\ copy\ one\ of\ the\ small\ child\ classes,\ change\ the\ text.\ That's\ it\!\r\n\r\n\ 'implements\ Interactable'\ \=\ this\ class\ keeps\ the\ promise\ of\ that\ interface.\r\n
+comment1.params=name\ sheetFile
+comment1.target=Npc(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=java.lang.String[]\ getLines()
+comment3.text=What\ this\ villager\ says\ RIGHT\ NOW\ (may\ depend\ on\ game\ progress).\ Each\ child\ writes\ this.
+comment4.params=
+comment4.target=java.lang.String\ getPrompt()
+comment5.params=world
+comment5.target=void\ interact(MyWorld)
+numComments=6

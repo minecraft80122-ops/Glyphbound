@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Element
+comment0.text=\r\n\ Element\ -\ an\ ENUM\ (enumeration).\r\n\r\n\ An\ enum\ is\ a\ special\ class\ that\ has\ a\ FIXED\ list\ of\ possible\ values.\r\n\ Here\ the\ only\ possible\ values\ are\ AIR,\ SURYA\ and\ BAYANGAN,\ so\ Java\ will\ never\r\n\ let\ us\ accidentally\ create\ a\ "fourth"\ element\ by\ typo\ (unlike\ using\ Strings).\r\n\r\n\ Each\ value\ also\ carries\ DATA\ (a\ display\ name\ and\ a\ colour),\ which\ we\ pass\ to\r\n\ the\ enum's\ constructor.\ Enums\ can\ have\ fields,\ constructors\ and\ methods\ just\r\n\ like\ normal\ classes.\r\n
+comment1.params=displayName\ color
+comment1.target=Element(java.lang.String,\ greenfoot.Color)
+comment2.params=
+comment2.target=java.lang.String\ getDisplayName()
+comment3.params=
+comment3.target=greenfoot.Color\ getColor()
+numComments=4

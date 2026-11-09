@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Scenery
+comment0.text=\r\n\ Scenery\ -\ draws\ the\ BACKGROUND\ pictures\ for\ each\ area,\ all\ with\ code\r\n\ (so\ the\ project\ needs\ no\ image\ files\ at\ all\!).\r\n\r\n\ Every\ method\ is\ static\ (we\ never\ create\ a\ Scenery\ object;\ it\ is\ just\ a\ toolbox).\r\n\ The\ picture\ is\ built\ in\ layers,\ like\ a\ painter\ would\:\ sky\ ->\ far\ scenery\ ->\ floor.\r\n\r\n\ GreenfootImage\ drawing\ cheat-sheet\ used\ below\:\r\n\ \ \ setColor(c)\ \ \ \ \ \ \ \ \ \ \ \ \ choose\ the\ "paint"\ colour\r\n\ \ \ fillRect(x,y,w,h)\ \ \ \ \ \ \ filled\ rectangle\ (x,y\ \=\ top-left\ corner)\r\n\ \ \ fillOval(x,y,w,h)\ \ \ \ \ \ \ filled\ ellipse\ inside\ that\ rectangle\r\n\ \ \ drawLine(x1,y1,x2,y2)\ \ \ a\ line\r\n\ \ \ fillPolygon(xs,ys,n)\ \ \ \ filled\ shape\ from\ n\ corner\ points\r\n\ Remember\:\ in\ Greenfoot\ (0,0)\ is\ the\ TOP-left\ and\ y\ grows\ DOWNWARDS.\r\n
+comment1.params=area\ w\ h
+comment1.target=greenfoot.GreenfootImage\ create(Element,\ int,\ int)
+comment1.text=Build\ the\ complete\ background\ image\ for\ an\ area.
+comment2.params=area
+comment2.target=greenfoot.Color\ wallColor(Element)
+comment2.text=Colour\ used\ for\ walls/gates\ in\ each\ area,\ so\ the\ walls\ match\ the\ scenery.
+comment3.params=img\ area\ w
+comment3.target=void\ paintSky(greenfoot.GreenfootImage,\ Element,\ int)
+comment4.params=a\ b\ t
+comment4.target=greenfoot.Color\ blend(greenfoot.Color,\ greenfoot.Color,\ double)
+comment4.text=Mix\ two\ colours\:\ t\=0\ gives\ colour\ a,\ t\=1\ gives\ colour\ b.
+comment5.params=img\ area\ w
+comment5.target=void\ paintBackdrop(greenfoot.GreenfootImage,\ Element,\ int)
+comment6.params=img\ area\ w\ h
+comment6.target=void\ paintFloor(greenfoot.GreenfootImage,\ Element,\ int,\ int)
+numComments=7

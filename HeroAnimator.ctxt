@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=HeroAnimator
+comment0.text=\r\n\ HeroAnimator\ -\ plays\ the\ frames\ of\ a\ CharacterArt.\ It\ replaces\ the\ animTimer\ /\r\n\ currFrame\ code\ that\ used\ to\ live\ inside\ Player.java,\ so\ Player,\ Explorer,\ Raden\ and\r\n\ Dyah\ can\ all\ share\ it\ (one\ piece\ of\ code,\ four\ users\ \=\ no\ copy-paste).\r\n\r\n\ Usage\ inside\ an\ Actor's\ act()\:\r\n\ \ \ \ \ animator.setState(HeroAnimator.State.WALK);\r\n\ \ \ \ \ setImage(animator.next(facingRight));\r\n
+comment1.params=art
+comment1.target=HeroAnimator(CharacterArt)
+comment2.params=art
+comment2.target=void\ setArt(CharacterArt)
+comment2.text=Swap\ to\ another\ character's\ art\ (used\ when\ pressing\ Q).
+comment3.params=newState
+comment3.target=void\ setState(HeroAnimator.State)
+comment3.text=Request\ an\ animation.\ Ignored\ while\ an\ attack\ animation\ is\ still\ playing.
+comment4.params=
+comment4.target=void\ startAttack()
+comment5.params=
+comment5.target=boolean\ isAttacking()
+comment6.params=facingRight
+comment6.target=greenfoot.GreenfootImage\ next(boolean)
+comment6.text=Advance\ the\ animation\ by\ one\ game\ frame\ and\ return\ the\ picture\ to\ show.
+comment7.params=s\ right
+comment7.target=greenfoot.GreenfootImage[]\ framesFor(HeroAnimator.State,\ boolean)
+comment8.params=s
+comment8.target=int\ delayFor(HeroAnimator.State)
+comment8.text=How\ many\ game\ frames\ each\ animation\ frame\ lasts\ (bigger\ \=\ slower).
+numComments=9

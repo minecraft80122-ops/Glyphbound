@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=LightMirrorPuzzle
+comment0.text=\r\n\ Puzzle\ for\ the\ SURYA\ glyph\:\ "align\ the\ light\ mirror".\r\n\ A\ mirror\ slides\ left\ and\ right.\ Press\ E\ when\ it\ sits\ inside\ the\ golden\ zone.\r\n\ Align\ it\ 3\ times\ in\ a\ row\ (it\ gets\ faster\ each\ time).\r\n
+comment1.params=
+comment1.target=LightMirrorPuzzle()
+comment2.params=
+comment2.target=int\ randomZone()
+comment3.params=key
+comment3.target=void\ updatePuzzle(java.lang.String)
+comment4.params=img
+comment4.target=void\ drawContent(greenfoot.GreenfootImage)
+numComments=5

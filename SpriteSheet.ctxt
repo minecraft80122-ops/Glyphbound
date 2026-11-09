@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SpriteSheet
+comment0.text=\r\n\ SpriteSheet\ -\ a\ small\ toolbox\ that\ cuts\ a\ "sprite\ sheet"\ (one\ long\ PNG\ with\ many\r\n\ animation\ frames\ side\ by\ side)\ into\ separate\ GreenfootImages.\r\n\r\n\ Your\ original\ Player.java\ did\ this\ with\ getAwtImage();\ this\ version\ uses\ only\r\n\ Greenfoot's\ own\ methods,\ and\ adds\ three\ things\:\r\n\ \ \ -\ CROP\:\ \ \ your\ frames\ are\ 128x128\ but\ the\ character\ only\ fills\ the\ middle,\ so\ we\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ cut\ away\ the\ empty\ space\ (this\ makes\ collisions\ much\ more\ accurate)\r\n\ \ \ -\ SCALE\:\ \ shrink\ the\ frames\ so\ the\ character\ fits\ the\ map's\ scale\r\n\ \ \ -\ SHADOW\:\ draw\ a\ soft\ shadow\ under\ the\ feet\ so\ the\ character\ looks\ "grounded"\r\n
+comment1.params=file\ frameW\ cropX\ cropY\ cropW\ cropH\ scale\ shadow
+comment1.target=greenfoot.GreenfootImage[]\ load(java.lang.String,\ int,\ int,\ int,\ int,\ int,\ double,\ boolean)
+comment1.text=\r\n\ @param\ file\ \ \ \ image\ file\ name\ in\ the\ images\ folder\r\n\ @param\ frameW\ \ width\ of\ ONE\ frame\ inside\ the\ sheet\ (128\ for\ your\ sheets)\r\n\ @param\ cropX\ \ \ left\ edge\ of\ the\ part\ to\ keep\ (inside\ each\ frame)\r\n\ @param\ cropY\ \ \ top\ edge\ of\ the\ part\ to\ keep\r\n\ @param\ cropW\ \ \ width\ of\ the\ part\ to\ keep\r\n\ @param\ cropH\ \ \ height\ of\ the\ part\ to\ keep\r\n\ @param\ scale\ \ \ 1.0\ \=\ original\ size,\ 0.5\ \=\ half\ size\r\n\ @param\ shadow\ \ draw\ a\ shadow\ under\ the\ feet?\r\n
+comment2.params=source
+comment2.target=greenfoot.GreenfootImage[]\ mirrored(greenfoot.GreenfootImage[])
+comment2.text=Make\ a\ left-facing\ copy\ of\ every\ frame\ (so\ we\ can\ show\ a\ character\ walking\ left).
+numComments=3
